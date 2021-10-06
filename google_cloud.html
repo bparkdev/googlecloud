@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./src/js/left-submenu.js"></script>
+    <script type="text/javascript" src="./src/js/main.js"></script>
+</head>
+<body>
+<div class="nav"><div id="menu-btn"><img src="./src/image/menu_btn_white.png" style="width: 20px; height: 20px;"></div>Google Cloud Platform<div style="float: right;"><div style="display: inline-block; font-size: 15px; margin-right: 15px;">Question</div><div style="display: inline-block; font-size: 15px;">Account</div></div></div>
+
+<div class="left-main-sidebar" style="position: fixed; top: 0px; z-index: 10; background-color: lightgrey; width: 250px; height: 100%; border-right: gray solid; display: none;">
+    <div class="sidebar-close-btn" style="float: right; padding: 10px;"><img src="./src/image/close_button.png" style="width: 20px; height: 20px;"></div>
+    <div style="clear: both;">
+        <div class="sidebar-menu" data-engine-info="app engine" style="padding: 10px 0 10px 0"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 17px; margin-left: 10px;">App Engine</span></div>
+        <div class="sidebar-menu" data-engine-info="compute engine" style="padding: 10px 0 10px 0"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 17px; margin-left: 10px;">Compute Engine</span></div>
+        <div class="sidebar-menu" data-engine-info="container engine" style="padding: 10px 0 10px 0"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 17px; margin-left: 10px;">Container Engine</span></div>
+    </div>
+</div>
+
+<div class="left-sub-sidebar">
+    <div class="selected-menu-title" style="height: 50px; background-color: lightgrey;">
+        <div class="sidebar-menu-div" style="padding: 10px 0 10px 0"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span id="selected-main-menu-text" style="font-size: 17px; margin-left: 10px;">App Engine</span></div>
+    </div>
+    <div id="left-sidebar-link" class="submenu-area">
+        <div class="left-submenu"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span class="left-submenu-text">App Engine submenu1</span></div>
+        <div class="left-submenu"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span class="left-submenu-text">App Engine submenu2</span></div>
+        <div class="left-submenu"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span class="left-submenu-text">App Engine submenu3</span></div>
+    </div>
+</div>
+<div class="body-right">
+    <div class="body-submenu-area" style="background-color: white;">
+        <div class="body-main-menu" style="display: inline-block; width: 49%; text-align: center; border-right: gray solid 1px; margin: 5px 0 5px 0;"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 15px; margin-left: 10px;">App Engine</span></div>
+        <div class="body-submenu" style="display: inline-block; width: 49%; text-align: center; margin: 5px 0 5px 0;"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 15px; margin-left: 10px;">App Engine submenu 1</span><div id="responsive-dropdown-btn"  style="display: inline-block; padding: 0 20px 0 20px;"><img src="./src/image/dropdown_option_btn.png" style="width: 17px; height: 17px;"></div></div>
+        <div id="dropdown-list" data-status="hide"  style="background-color: lightskyblue; width: 45%; position: fixed; margin-left: 50%; display: none;">
+            <div class="body-submenu" style="text-align: center; margin: 5px 0 5px 0;"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 15px; margin-left: 10px;">App Engine submenu 1</span></div>
+            <div class="body-submenu" style="text-align: center; margin: 5px 0 5px 0;"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 15px; margin-left: 10px;">App Engine submenu 2</span></div>
+            <div class="body-submenu" style="text-align: center; margin: 5px 0 5px 0;"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 15px; margin-left: 10px;">App Engine submenu 3</span></div>
+        </div>
+    </div>
+    <div class="submenu-actions-area" style="height: 50px; background-color: lightgrey;">
+        <div class="body-submenu" style="display: inline-block; margin: 12px 0 12px 0;"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 15px; margin-left: 10px;">submenu action 1</span></div>
+        <div class="body-submenu" style="display: inline-block; margin: 12px 0 12px 0;"><img src="./src/image/award-fill.svg" style="width: 20px; height: 20px;"><span style="font-size: 15px; margin-left: 10px;">submenu action 2</span></div>
+    </div>
+    <div class="body-main-content">
+        body-main-content
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.nav {background-color: blue; color: white; padding: 10px; margin: 0px; height : 25px; font-size: 20px;}
+
+#menu-btn { display: inline-block; margin : 0 15px 0 5px;}
+
+.left-sub-sidebar {display: inline-block; width: 250px; height: 100%; float: left; background-color: white; border-right: solid grey;}
+.body-submenu-area {display: none;}
+/* Set the background color of body to tan */
+
+.sidebar-menu:hover {background-color: lightskyblue;}
+
+.left-submenu {padding: 10px 0 10px 0;}
+.left-submenu-text {font-size: 15px; margin-left: 10px;}
+
+
+.submenu-area {padding-left: 15px;}
+
+html {height: 100%;  font-family: Arial}
+body {
+  background-color: tan;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+
+
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+
+  body {
+    background-color: blue;
+  }
+
+  .left-sub-sidebar {display: none;}
+
+  .body-submenu-area {display: block;}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+/*
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+*/
